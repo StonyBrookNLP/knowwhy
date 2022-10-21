@@ -1,0 +1,69 @@
+Starting at Wed Oct 19 19:36:53 2022
+{'test_output_file': '../data/model_predictions/t5base_verb_top5_diverse.csv', 'log_file': '../logs/t5base_verb_top5_diverse.auto_metrics', 'temp_dir': '../auto-metrics-store/t5base_verb_top5_diverse'}
+Input file to evaluate: ../data/model_predictions/t5base_verb_top5_diverse.csv
+Average narrative lexical overlap for predicted answers is 82.38258687317719
+Running on all questions
+ROUGE-L score
+	 recall = 0.21
+	 precision = 0.27
+	 F-score = 0.23
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/config.json HTTP/1.1" 200 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "GET /api/models/roberta-large HTTP/1.1" 200 1191
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/merges.txt HTTP/1.1" 200 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/added_tokens.json HTTP/1.1" 404 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/tokenizer.json HTTP/1.1" 200 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/config.json HTTP/1.1" 200 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/config.json HTTP/1.1" 200 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+Max BLEU score is: 19.85
+Max BertScore score is: 0.4522
+Max BLEURT score is: -0.3762
+Running on implicit questions
+ROUGE-L score
+	 recall = 0.16
+	 precision = 0.2
+	 F-score = 0.18
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/config.json HTTP/1.1" 200 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "GET /api/models/roberta-large HTTP/1.1" 200 1191
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/vocab.json HTTP/1.1" 200 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/merges.txt HTTP/1.1" 200 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/added_tokens.json HTTP/1.1" 404 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/tokenizer.json HTTP/1.1" 200 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/config.json HTTP/1.1" 200 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/config.json HTTP/1.1" 200 0
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /roberta-large/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+Max BLEU score is: 13.7
+Max BertScore score is: 0.3645
+Max BLEURT score is: -0.6163
+Ended at Wed Oct 19 19:41:11 2022
