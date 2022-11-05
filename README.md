@@ -111,6 +111,7 @@ To see all the human evaluation numbers in one place, please check `notebooks/Hu
 
 Please use the bibtex below to cite our work.
 
+```
 @inproceedings{lal-etal-2022-using,
     title = "Using Commonsense Knowledge to Answer Why Questions",
     author = "Lal, Yash Kumar  and
@@ -126,3 +127,9 @@ Please use the bibtex below to cite our work.
     address = "Online and Abu Dhabi, United Arab Emirates",
     publisher = "Association for Computational Linguistics",
 }
+```
+
+
+## Contributors
+
+[Yash Kumar Lal](https://www3.cs.stonybrook.edu/~ylal/), [Niket Tandon](https://allenai.org/team/nikett), [Tanvi Aggarwal](https://www.linkedin.com/in/tanviaggarwal97), [Horace Liu](https://www.linkedin.com/in/horaceliu/) [Nate Chambers](https://www.usna.edu/Users/cs/nchamber/), [Raymond Mooney](https://www.cs.utexas.edu/~mooney/), [Niranjan Balasubramanian](https://www3.cs.stonybrook.edu/~niranjan/)
