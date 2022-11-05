@@ -9,9 +9,10 @@ conda create --name emnlp python=3.9
 conda activate emnlp
 pip install -r requirements.txt
 # Download data and models folders from the Internet and unzip it here
-gdown 1ETA-_jrRWJHsTUmcTW3j4ALYDX_JlGWN
+gdown 1JapKR1iQeSKVECSwrvCY2d7gIWlgX3vC 
 unzip knowwhy.zip
-rm -rf knowwhy.zip
+mv knowwhy/* .
+rm -rf knowwhy.zip knowwhy/
 # Installation below only required to generate automatic metric scores
 cd src/
 git clone https://github.com/google-research/bleurt.git
