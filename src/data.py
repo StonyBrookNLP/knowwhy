@@ -194,7 +194,7 @@ def load_comet_relations(data_folder):
 
     """
     Load differently ordered COMET relations for TellMeWhy
-    File format: {meta: [{'rel_type': type_, 'rel_phrase: relation}, ...]}
+    File format: {meta: [{'rel_type': type_, 'rel_phrase': relation}, ...]}
     Each dictionary that describes a relation can also have 'rel_score' key
     """
 

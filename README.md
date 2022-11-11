@@ -6,7 +6,7 @@ This repository contains all the relevant code and artifacts for the paper - Usi
 
 ```
 conda create --name emnlp python=3.9
-conda activate emnlp
+conda activate knowwhy
 pip install -r requirements.txt
 # Download data and models folders from the Internet and unzip it here
 gdown 1JapKR1iQeSKVECSwrvCY2d7gIWlgX3vC 
@@ -27,6 +27,19 @@ Download trained COMET-ATOMIC2020 model present [here](https://storage.googleapi
 Place this folder in the `models/` directory of the project.
 
 ## Models
+
+### Settings
+
+- `input_type` is `normal` - Model input format: "question: Q context: C"
+- `input_type` is `separator-normal` - Model input format: "question: Q \\n context: C"
+For the other supported input types:
+- if `input_type` contains `original`, COMET inferences are ranked according to their associated COMET scores and used in that order
+- if `input_type` contains `reranked`, COMET inferences are ranked according to a trained reranking model and used in that order
+- if `input_type` contains `diverse`, COMET inferences are ranked according to a trained reranking model with a post-hoc diversity constraint and used in that order
+- if `input_type` contains a number, that number denotes the number of COMET inferences used in the model input
+- if `input_type` contains `tup` - Model input format: "question: Q context: C <info> relation: {rel_type} phrase: {rel_phrase} </info>"
+- if `input_type` contains `tupsep` - Model input format: "question: Q \\n context: C \\n <info> relation: {rel_type} phrase: {rel_phrase} </info> \\n"
+- if `input_type` contains `verbalized` - Model input format: "question: Q \\n context: C \\n verbalized_relation \\n"
 
 ### Training
 
