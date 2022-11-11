@@ -72,7 +72,7 @@ def get_topk_comet_relations(comet_relations, k, diversity=False):
         rel_phrase = relation['rel_phrase'].lstrip().rstrip()
         if rel_phrase.lower() == 'none':
             continue
-        if not diversity:
+        if diversity:
             relations.append(relation)
         else:
             rel_type = relation['rel_type']
