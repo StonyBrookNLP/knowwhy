@@ -297,8 +297,8 @@ def main(args):
         train_df = train_df.apply(data.create_separator_model_input, axis=1)
         dev_df = dev_df.apply(data.create_separator_model_input, axis=1)
 
-        test_df = test_df.apply(data.create_normal_model_input, axis=1)
-        hidden_test_df = hidden_test_df.apply(data.create_normal_model_input, axis=1)
+        test_df = test_df.apply(data.create_separator_model_input, axis=1)
+        hidden_test_df = hidden_test_df.apply(data.create_separator_model_input, axis=1)
 
     elif args.input_type == 'diverse-tup-3':
 

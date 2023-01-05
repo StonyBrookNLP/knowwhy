@@ -23,9 +23,6 @@ unzip bleurt-base-128.zip
 rm -rf bleurt-base-128.zip
 ```
 
-Download trained COMET-ATOMIC2020 model present [here](https://storage.googleapis.com/ai2-mosaic-public/projects/mosaic-kgs/comet-atomic_2020_BART.zip) and unzip into a folder.
-Place this folder in the `models/` directory of the project.
-
 ## Models
 
 ### Settings

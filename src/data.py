@@ -223,7 +223,6 @@ def load_tellmewhy(data_folder):
 
 def main(args):
     t, v, tf, ta = load_comet_relations(args.comet_data_folder)
-    breakpoint()
 
 if __name__=='__main__':
     args = parse_args()
