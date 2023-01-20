@@ -124,19 +124,19 @@ Please use the bibtex below to cite our work.
 
 ```
 @inproceedings{lal-etal-2022-using,
-    title = "Using Commonsense Knowledge to Answer Why Questions",
-    author = "Lal, Yash Kumar  and
+    title={Using Commonsense Knowledge to Answer Why Questions},
+    author={Lal, Yash Kumar  and
       Tandon, Niket and
       Aggarwal, Tanvi and
       Liu, Horace and
       Chambers, Nathanael  and
       Mooney, Raymond  and
-      Balasubramanian, Niranjan",
-    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
-    month = dec,
-    year = "2022",
-    address = "Online and Abu Dhabi, United Arab Emirates",
-    publisher = "Association for Computational Linguistics",
+      Balasubramanian, Niranjan},
+    booktitle={Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing},
+    month={dec},
+    year={2022},
+    address={Online and Abu Dhabi, United Arab Emirates},
+    publisher={Association for Computational Linguistics},
 }
 ```
 
