@@ -4,15 +4,10 @@ This repository contains all the relevant code and artifacts for the paper - Usi
 
 ## Setup
 
+Please visit [this Zenodo link](https://zenodo.org/record/7709865#.ZAkw-i-B35g) to download the models, data and other artifacts associated with the paper. Once the zip file has been downloaded and unzipped at the desired location, please follow the instructions below:
+
 ```
-conda create --name emnlp python=3.9
-conda activate knowwhy
-pip install -r requirements.txt
-# Download data and models folders from the Internet and unzip it here
-gdown 1JapKR1iQeSKVECSwrvCY2d7gIWlgX3vC 
-unzip knowwhy.zip
-mv knowwhy/* .
-rm -rf knowwhy.zip knowwhy/
+cd knowwhy/
 # Installation below only required to generate automatic metric scores
 cd src/
 git clone https://github.com/google-research/bleurt.git
