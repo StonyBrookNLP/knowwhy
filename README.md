@@ -119,19 +119,22 @@ Please use the bibtex below to cite our work.
 
 ```
 @inproceedings{lal-etal-2022-using,
-    title={Using Commonsense Knowledge to Answer Why Questions},
-    author={Lal, Yash Kumar  and
-      Tandon, Niket and
-      Aggarwal, Tanvi and
-      Liu, Horace and
+    title = "Using Commonsense Knowledge to Answer Why-Questions",
+    author = "Lal, Yash Kumar  and
+      Tandon, Niket  and
+      Aggarwal, Tanvi  and
+      Liu, Horace  and
       Chambers, Nathanael  and
       Mooney, Raymond  and
-      Balasubramanian, Niranjan},
-    booktitle={Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing},
-    month={dec},
-    year={2022},
-    address={Online and Abu Dhabi, United Arab Emirates},
-    publisher={Association for Computational Linguistics},
+      Balasubramanian, Niranjan",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.79",
+    pages = "1204--1219",
+    abstract = "Answering questions in narratives about why events happened often requires commonsense knowledge external to the text. What aspects of this knowledge are available in large language models? What aspects can be made accessible via external commonsense resources? We study these questions in the context of answering questions in the TellMeWhy dataset using COMET as a source of relevant commonsense relations. We analyze the effects of model size (T5 and GPT3) along with methods of injecting knowledge (COMET) into these models. Results show that the largest models, as expected, yield substantial improvements over base models. Injecting external knowledge helps models of various sizes, but the amount of improvement decreases with larger model size. We also find that the format in which knowledge is provided is critical, and that smaller models benefit more from larger amounts of knowledge. Finally, we develop an ontology of knowledge types and analyze the relative coverage of the models across these categories.",
 }
 ```
 
