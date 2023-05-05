@@ -8,6 +8,7 @@ Please visit [this Zenodo link](https://zenodo.org/record/7709865#.ZAkw-i-B35g) 
 
 ```
 cd knowwhy/
+pip install -r requirements.txt
 # Installation below only required to generate automatic metric scores
 cd src/
 git clone https://github.com/google-research/bleurt.git
